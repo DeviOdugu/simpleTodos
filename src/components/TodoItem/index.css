@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list {
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: space-between;
+}
+.title {
+  color: #000000;
+  font-size: 13px;
+}
+
+.button {
+  border: solid #ff0b37 2px;
+  color: #ff0b37;
+  border-radius: 4px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 11px;
+  }
+  .button {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    padding-left: 170px;
+  }
+  .button {
+    margin-right: 170px;
+  }
+}
